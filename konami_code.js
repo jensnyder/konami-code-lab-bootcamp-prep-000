@@ -8,9 +8,10 @@ function init() {
     if (key === code[index]) {
       index++;
       if (index === code.length) {
-      alert('You did it!')
+      alert('You did it!');
+      index = 0;
     }} else {
-      index = 0
+      index = 0;
     }
   })
 }
