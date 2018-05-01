@@ -5,7 +5,8 @@ let index = 0
 function init() {
   document.body.addEventListener('keydown', function(e) {
     const key = parseInt(e.detail || e.which);
-    if (e.which === 38) {
+    if (key === code[index]) {
+      
     alert('You did it!')
     }
   })
